@@ -1,0 +1,16 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Lease extends Model
+{
+    protected $table = 'lease';
+
+    protected $fillable = [
+        'title',
+        'description',
+        'image'
+    ];
+}

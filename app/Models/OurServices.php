@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class OurServices extends Model
+{
+    protected $table = 'ourservices';
+
+    protected $fillable = [
+        'title',
+        'description',
+        'image',
+    ];
+
+}
