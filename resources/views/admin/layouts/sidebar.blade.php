@@ -49,7 +49,8 @@
 <li class="nav-item">
   <a class="nav-link {{ request()->routeIs('admin.about.index') ? 'active bg-gradient-dark text-white' : 'text-dark' }}"
      href="{{ route('admin.about.index') }}">
-    <i class="material-symbols-rounded opacity-5">table_view</i>
+   <i class="material-symbols-rounded opacity-5">info_i</i>
+
     <span class="nav-link-text ms-1">About</span>
   </a>
 </li>
